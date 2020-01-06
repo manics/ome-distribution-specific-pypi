@@ -7,16 +7,23 @@ page_gen-dirs: true
 page_gen:
 
   - index_files: true
-    data: repos.ubuntu1804.packages
+    data: repos.centos8.packages
     template: packages
     name: name
-    dir: ubuntu-18.04
+    dir: centos-8
 
   - index_files: true
     data: repos.debian10.packages
     template: packages
     name: name
     dir: debian-10
+
+  - index_files: true
+    data: repos.ubuntu1804.packages
+    template: packages
+    name: name
+    dir: ubuntu-18.04
+
 
   - index_files: true
     data: repos.distributions
