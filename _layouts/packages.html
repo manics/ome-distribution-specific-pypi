@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<ul>
+{% for file in page.files %}
+<li>
+<a href="{{ file }}">{{ file }}</a>
+</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,25 @@
+# url: ''
+# repository: 
+baseurl: /
+
+page_gen-dirs: true
+
+page_gen:
+
+  - index_files: true
+    data: repos.ubuntu1804.packages
+    template: packages
+    name: name
+    dir: ubuntu-18.04
+
+  - index_files: true
+    data: repos.debian10.packages
+    template: packages
+    name: name
+    dir: debian-10
+
+  - index_files: true
+    data: repos.distributions
+    template: repos
+    name: name
+    dir: .

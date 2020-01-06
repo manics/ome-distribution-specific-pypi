@@ -1,0 +1,21 @@
+---
+
+ubuntu1804:
+  dist: ubuntu-18.04
+  packages:
+    - name: zeroc-ice
+      files:
+        - https://github.com/ome/zeroc-ice-ubuntu1804/releases/download/0.3.0/zeroc_ice-3.6.5-cp36-cp36m-linux_x86_64.whl
+
+debian10:
+  dist: debian-10
+  packages:
+    - name: zeroc-ice
+      files:
+        - https://github.com/ome/zeroc-ice-debian10/releases/download/0.1.0/zeroc_ice-3.6.5-cp37-cp37m-linux_x86_64.whl
+
+distributions:
+  - name: debian-10
+    shortname: debian10
+  - name: ubuntu-18.04
+    shortname: ubuntu1804
