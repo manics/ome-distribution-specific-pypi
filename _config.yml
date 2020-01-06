@@ -1,6 +1,6 @@
 # url: ''
 # repository: 
-baseurl: /ome-distribution-specific-pypi/docs
+baseurl: /ome-distribution-specific-pypi
 
 page_gen-dirs: true
 
