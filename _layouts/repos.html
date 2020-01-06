@@ -4,7 +4,7 @@ layout: default
 <ul>
 {% for pkg in site.data.repos[page.shortname].packages %}
 <li>
-<a href="{{ page.url }}{{ pkg.name }}">{{ pkg.name }}</a>
+<a href="{{ page.url | prepend:site.baseurl }}{{ pkg.name }}">{{ pkg.name }}</a>
 {% endfor %}
 </li>
 </ul>
